@@ -1,0 +1,12 @@
+spring:
+  activemq:
+    broker-url: failover:(ssl://foo:61617,ssl://bar:61617)
+ 
+camel:
+  springboot:
+    shutdown-timeout: 2
+  health:
+    check:
+      routes:
+        enabled: true
+ 
