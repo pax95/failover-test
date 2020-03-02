@@ -16,8 +16,8 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <java.version>11</java.version>
-        <spring-boot.version>2.2.1.RELEASE</spring-boot.version>
-        <camel.version>3.0.1</camel.version>
+        <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+        <camel.version>3.1.0</camel.version>
     </properties>
 
     <dependencies>
